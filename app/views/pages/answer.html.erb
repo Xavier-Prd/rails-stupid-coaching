@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <h1 class="mb-4">Stupid Coaching</h1>
+
+  <div class="question border-start border-5 ps-3 mb-4">
+    <span><%= params[:question].capitalize %></span>
+    <p class="fst-italic text-muted mb-0">–You</p>
+  </div>
+
+  <div class="answer border-start border-5 ps-3 p-3 bg-warning bg-opacity-10">
+    <span class="fw-bold"><%= @response %></span>
+    <p class="fst-italic text-muted mb-0">–Your coach</p>
+  </div>
+</div>
